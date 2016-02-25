@@ -18,3 +18,5 @@ In our app, we're keeping track of a few things:
 Start by running `bundle install` and then `rspec spec`.
 
 Let the tests guide your development.
+
+All of the tests must pass without changing the test code.

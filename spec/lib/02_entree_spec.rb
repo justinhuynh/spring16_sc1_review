@@ -24,6 +24,12 @@ describe Entree do
       expect(entree.dish_name).to eq("Fried Oreos")
     end
 
+    it "does not hard-code the entree" do
+      other_foodie = Foodie.new("Joseph T. Frog", "joe.frog@gmail.com")
+      other_entree = Entree.new("Fried Twinkies", other_foodie)
+      expect(other_foodie.entree).to eq("Fried Twinkies")
+    end
+
     it "does not have a writer for dish_name" do
       expect { entree.dish_name = "nil" }.to raise_error(NoMethodError)
     end
