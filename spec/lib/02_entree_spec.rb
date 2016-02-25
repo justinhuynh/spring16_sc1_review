@@ -27,7 +27,7 @@ describe Entree do
     it "does not hard-code the entree" do
       other_foodie = Foodie.new("Joseph T. Frog", "joe.frog@gmail.com")
       other_entree = Entree.new("Fried Twinkies", other_foodie)
-      expect(other_foodie.entree).to eq("Fried Twinkies")
+      expect(other_entree.dish_name).to eq("Fried Twinkies")
     end
 
     it "does not have a writer for dish_name" do
