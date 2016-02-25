@@ -8,7 +8,7 @@ To view the completed version (after you've cloned down the original):
 
 ```
 cd spring16_sc1_review
-git checkout completed
+git checkout clinic
 ```
 
 # Food Club
