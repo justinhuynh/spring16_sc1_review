@@ -1,0 +1,2 @@
+class ThemeDinner
+end
